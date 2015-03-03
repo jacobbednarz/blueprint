@@ -1,5 +1,9 @@
 {
     "require": {
-        "silex/silex": "~1.1"
+        "silex/silex": "~1.2",
+        "symfony/yaml": "3.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Blueprint\\": "src" }
     }
 }
